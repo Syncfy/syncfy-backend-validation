@@ -1,0 +1,6 @@
+@sistemaValidacao_HostAddress = http://localhost:5174
+
+GET {{sistemaValidacao_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
