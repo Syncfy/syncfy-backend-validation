@@ -13,6 +13,11 @@ namespace sistemaValidacao.Controllers
         [HttpPost]
         public IActionResult ValidarCadastro([FromBody] CadastroModel cadastro)
         {
+            if (cadastro == null)
+            {
+                return BadRequest("O objeto CadastroModel não foi enviado corretamente.");
+            }
+
             List<string> mensagensErro = ValidarDados(cadastro);
 
             if (mensagensErro.Count > 0)
@@ -61,43 +66,47 @@ namespace sistemaValidacao.Controllers
                 mensagensErro.Add("Nome do segmento é obrigatório");
             }
 
-            if (string.IsNullOrEmpty(cadastro.Endereco?.CEP) || !Regex.IsMatch(cadastro.Endereco.CEP, @"^\d{8}$"))
+            foreach (var endereco in cadastro.Enderecos)
             {
-                mensagensErro.Add("CEP inválido, deve conter 8 caracteres numéricos");
-            }
+                if (string.IsNullOrEmpty(endereco.CEP) || !Regex.IsMatch(endereco.CEP, @"^\d{8}$"))
+                {
+                    mensagensErro.Add("CEP inválido, deve conter 8 caracteres numéricos");
+                }
 
-            if (string.IsNullOrEmpty(cadastro.Endereco?.Logradouro))
-            {
-                mensagensErro.Add("Logradouro é obrigatório");
-            }
+                if (string.IsNullOrEmpty(endereco.Logradouro))
+                {
+                    mensagensErro.Add("Logradouro é obrigatório");
+                }
 
-            if (string.IsNullOrEmpty(cadastro.Endereco?.Numero))
-            {
-                mensagensErro.Add("Número é obrigatório");
-            }
+                if (string.IsNullOrEmpty(endereco.Numero))
+                {
+                    mensagensErro.Add("Número é obrigatório");
+                }
 
-            if (string.IsNullOrEmpty(cadastro.Endereco?.Bairro?.Nome))
-            {
-                mensagensErro.Add("Bairro é obrigatório");
-            }
+                if (string.IsNullOrEmpty(endereco.Bairro?.Nome))
+                {
+                    mensagensErro.Add("Bairro é obrigatório");
+                }
 
-            if (string.IsNullOrEmpty(cadastro.Endereco?.Bairro?.Cidade?.Nome))
-            {
-                mensagensErro.Add("Cidade é obrigatória");
-            }
+                if (string.IsNullOrEmpty(endereco.Bairro?.Cidade?.Nome))
+                {
+                    mensagensErro.Add("Cidade é obrigatória");
+                }
 
-            if (string.IsNullOrEmpty(cadastro.Endereco?.Bairro?.Cidade?.Estado?.Nome))
-            {
-                mensagensErro.Add("Estado é obrigatório");
-            }
+                if (string.IsNullOrEmpty(endereco.Bairro?.Cidade?.Estado?.Nome))
+                {
+                    mensagensErro.Add("Estado é obrigatório");
+                }
 
-            if (string.IsNullOrEmpty(cadastro.Endereco?.Bairro?.Cidade?.Estado?.Pais?.Nome))
-            {
-                mensagensErro.Add("País é obrigatório");
+                if (string.IsNullOrEmpty(endereco.Bairro?.Cidade?.Estado?.Pais?.Nome))
+                {
+                    mensagensErro.Add("País é obrigatório");
+                }
             }
 
             return mensagensErro;
         }
+
         [HttpGet]
         public IActionResult Index()
         {

@@ -1,12 +1,92 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mniac\\Desktop\\sistemaValidacao\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBEFDC8F-898D-4E36-A24A-7B069D8273E2}|sistemaValidacao.csproj|c:\\users\\user\\desktop\\syncfy-backend-validation\\sistemavalidacao\\model\\enderecomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEFDC8F-898D-4E36-A24A-7B069D8273E2}|sistemaValidacao.csproj|solutionrelative:model\\enderecomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBEFDC8F-898D-4E36-A24A-7B069D8273E2}|sistemaValidacao.csproj|c:\\users\\user\\desktop\\syncfy-backend-validation\\sistemavalidacao\\model\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEFDC8F-898D-4E36-A24A-7B069D8273E2}|sistemaValidacao.csproj|solutionrelative:model\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBEFDC8F-898D-4E36-A24A-7B069D8273E2}|sistemaValidacao.csproj|c:\\users\\user\\desktop\\syncfy-backend-validation\\sistemavalidacao\\controllers\\dadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEFDC8F-898D-4E36-A24A-7B069D8273E2}|sistemaValidacao.csproj|solutionrelative:controllers\\dadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBEFDC8F-898D-4E36-A24A-7B069D8273E2}|sistemaValidacao.csproj|c:\\users\\user\\desktop\\syncfy-backend-validation\\sistemavalidacao\\model\\bairromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEFDC8F-898D-4E36-A24A-7B069D8273E2}|sistemaValidacao.csproj|solutionrelative:model\\bairromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnderecoModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\Model\\EnderecoModel.cs",
+              "RelativeDocumentMoniker": "Model\\EnderecoModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\Model\\EnderecoModel.cs",
+              "RelativeToolTip": "Model\\EnderecoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T02:03:28.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\Model\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "Model\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\Model\\UsuarioModel.cs",
+              "RelativeToolTip": "Model\\UsuarioModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T02:03:22.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BairroModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\Model\\BairroModel.cs",
+              "RelativeDocumentMoniker": "Model\\BairroModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\Model\\BairroModel.cs",
+              "RelativeToolTip": "Model\\BairroModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T01:35:20.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DadosController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\Controllers\\DadosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DadosController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\Controllers\\DadosController.cs",
+              "RelativeToolTip": "Controllers\\DadosController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAEwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T01:33:44.997Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

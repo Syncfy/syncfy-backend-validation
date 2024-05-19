@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mniac\\Desktop\\sistemaValidacao\\sistemaValidacao.csproj": {}
+    "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\sistemaValidacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mniac\\Desktop\\sistemaValidacao\\sistemaValidacao.csproj": {
+    "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\sistemaValidacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mniac\\Desktop\\sistemaValidacao\\sistemaValidacao.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\sistemaValidacao.csproj",
         "projectName": "sistemaValidacao",
-        "projectPath": "C:\\Users\\mniac\\Desktop\\sistemaValidacao\\sistemaValidacao.csproj",
-        "packagesPath": "C:\\Users\\mniac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mniac\\Desktop\\sistemaValidacao\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\sistemaValidacao.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\syncfy-backend-validation\\sistemaValidacao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mniac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
